@@ -23,9 +23,7 @@
        text-decoration:underline;
    }
 
-div,p{
-    
-}
+
 div p{
     color: yellow;
 }
@@ -412,7 +410,7 @@ div + p{
        text-transform:uppercase;
    }
    footer
-   {;
+   {
        position:absolute;
        clear:both;
        bottom:300px;
@@ -514,7 +512,8 @@ li:last-of-type{
 color: #000450;
 }
 a:link{
-text-height: 50px;
+margin:auto;
+color: gold;
 }
 
 a::selection{
