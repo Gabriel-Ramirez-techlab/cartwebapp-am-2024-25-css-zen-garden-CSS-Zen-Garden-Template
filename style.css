@@ -1,1 +1,15 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
+.page-wrapper{
+    margin: 20%;
+    
+    width: 100%; /* Adjust based on the image width */
+    height: 100%;
+    background-image: url('megadeth.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+}
+
+#css-zen-garden{
+    background-color: black;
+}
