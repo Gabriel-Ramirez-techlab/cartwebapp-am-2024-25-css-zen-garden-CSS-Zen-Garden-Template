@@ -1,15 +1,522 @@
-/* Empty file for template. Remember to edit only this file and not the HTML file */
-.page-wrapper{
-    margin: 20%;
+/* css Zen Garden submission 202 - 'Retro Theater', by Eric Rog�, http://space-sheeps.info/ */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+/* All associated graphics copyright 2006, Eric Rog� */
+/* Added: December 12th, 2006 */
+
+
+/* IMPORTANT */
+/* This design is not a template. You may not reproduce it elsewhere without the 
+   designer's written permission. However, feel free to study the CSS and use 
+   techniques you learn from it elsewhere. */   
+
+
+   a,
+   a:visited
+   {
+       text-decoration:none;
+       color:#ccc;
+       position:relative;
+   }
+   a:hover
+   {
+    color: aquamarine;
+       text-decoration:underline;
+   }
+
+div,p{
     
-    width: 100%; /* Adjust based on the image width */
-    height: 100%;
-    background-image: url('megadeth.jpg');
-    background-size: cover;
-    background-position: center;
+}
+div p{
+    color: yellow;
+}
+div>p{
+    font-style: italic;
+}
+div + p{
     padding: 50px;
 }
+   div,
+   p,
+   body,
+   ul,
+   li,
+   h1,
+   h2,
+   h3
+   {
+       display:block;
+       margin:0;
+       padding:0;
+       border:none;
+   }
 
-#css-zen-garden{
-    background-color: black;
+   ul
+   {
+       list-style:none;
+   }
+   h1,
+   h2,
+   h3{
+    color: aqua;
+       text-transform:uppercase;
+       font-weight:normal;
+   }
+   abbr
+   {
+       border:none;
+   }
+   body
+   {
+       
+    background:#000 url(stars-galaxy.gif) ;
+       text-align:center;
+       z-index:1;
+   }
+   p:first-of-type{
+    /* background-color: #000; */
+    border-radius: 0%;
+   }
+   p:empty{
+    background: none;
+   }
+   :not(p){
+    word-spacing: normal;
+   }
+   .page-wrapper
+   {
+    background:#000 url(stars-galaxy.gif) ;
+       position:relative;
+       width:600px;
+       margin:0 auto;
+       padding:230px 0 350px 0;
+       font-size:0.8em;
+       font-family:arial, sans serif;
+       background-color:#313131;
+       color:#b9b9b9;
+       text-align:left;
+       z-index:3;
+   }
+   p
+   {
+       font-variant:small-caps;
+   }
+   .intro
+   {
+       text-align:center;
+   }
+   h1
+   {
+       width:550px;
+       height:258px;
+      color: aquamarine;
+       text-indent: 100%;
+       white-space: nowrap;
+       overflow: hidden;
+   }
+   h2
+   {
+       margin-top:-20px;
+       width:550px;
+       height:37px;
+   
+       text-indent: 100%;
+       white-space: nowrap;
+       overflow: hidden;
+   }
+   p::first-line{
+    font-weight: bold;
+   }
+   p::first-letter{
+    font-variant-caps:titling-caps;
+   }
+   input:focus{
+    margin: auto;
+    min-width: none;
+    min-height: auto;
+   }
+   .summary
+   {
+    
+    font-size: xx-large;
+       width:80%;
+       margin:10em auto 0 auto;
+       text-align:center;
+
+   }
+   .summary p
+   {
+       display:inline;
+       font-size:125%;
+       line-height:80%;
+   }
+   .preamble{
+    font-size: x-large;
+    color: gold;
+   }
+   .preamble h3
+   {
+       margin-top:1.5em;
+       font-size:80%;
+   }
+   .preamble p
+   {
+       width:80%;
+       font-size:95%;
+       line-height:90%;
+       margin:0 auto;
+       margin:0 auto;
+   }
+   .supporting
+   {
+       float:left;
+       padding:10em 0;
+   }
+   .supporting
+   {
+    
+       width:100%;
+       margin-top:3em;
+   }
+   .explanation
+   {
+    
+    
+    background-image: url(stars-galaxy.gif);
+    
+       float:left;
+       width:60%;
+   }
+   .explanation h3
+   {
+       font-size:125%;
+       font-weight:bold;
+       text-align:right;
+       margin:0 5% 0 10%;
+       margin-bottom:-1.1em;
+   }
+   
+   .explanation p
+   {
+       line-height:4em;
+       text-align:right;
+       margin:0 5% 0 10%;
+       font-variant:normal;
+       text-transform:capitalize;
+       padding-bottom:4em;
+   }
+   
+   .participation
+   {
+       float:right;
+       width:40%;
+   }
+   
+   .participation h3
+   {
+       font-size:125%;
+       font-weight:bold;
+       margin:0 10% 0 5%;
+   }
+   
+   .participation p
+   {
+       line-height:2em;
+       margin:0 10% 0 5%;
+       font-weight:bold;
+       font-variant:normal;
+       text-transform:uppercase;
+   }
+   .benefits
+   {
+    border: double;
+       float:left;
+       clear:left;
+       margin-top:10em;
+       width:24%;
+   }
+   .benefits h3
+   {
+       font-size:125%;
+       font-weight:bold;
+       margin:0 10% 0 5%;
+       text-align:center;
+       margin-bottom:1.2em;
+   }
+   .benefits p
+   {
+       line-height:2em;
+       font-weight:bold;
+       margin:0 20px 0 5%;
+       font-variant:normal;
+       text-transform:uppercase;
+       text-align:center;
+   }
+   .requirements
+   {
+    border: dotted;
+       float:right;
+       margin:10em 0 0 0;
+       width:72%;
+       text-align:center;
+   }
+   .requirements h3
+   {
+       font-size:125%;
+       font-weight:bold;
+       margin-bottom:1.2em;
+   }
+   .requirements p
+   {
+       line-height:2em;
+       font-weight:bold;
+       font-variant:normal;
+       text-transform:uppercase;
+   }
+   .requirements p:nth-child(2)
+   {
+       float:left;
+       /*margin-top:-1em;
+       line-height:4em;*/
+       width:20%;
+       margin-right:3%;
+       text-align:left;
+       text-transform:none;
+   }
+   .requirements p:nth-child(3)
+   {
+       float:left;
+       width:36%;
+   }
+   .requirements p:nth-child(4),
+   .requirements p:nth-child(5),
+   .requirements p:nth-child(6)
+   {
+       float:right;
+       width:35%;
+       text-align:right;
+       margin-right:2%;
+   }
+   .sidebar
+   {
+     font-size: x-large;
+       clear:both;
+   }
+   .design-selection h3,
+   .design-archives h3,
+   .zen-resources h3
+   {
+       padding-top:7em;
+       font-size:125%;
+       font-weight:bold;
+       text-align:center;
+       clear:both;
+   }
+   .design-selection ul
+   {
+       margin:0;
+       padding:0;
+   }
+   .design-selection li
+   {
+       position:relative;
+       width:90%;
+       margin:.5em auto;
+       padding:0;
+       color:#313131;
+       border-bottom:2px dashed #b9b9b9;
+   }
+   .design-selection a
+   {
+       position:relative;
+       top:5px;
+       padding:0 4px 0 0;
+       font-weight:bold;
+       text-transform:uppercase;
+       background:url('ecran.gif');
+   }
+   .design-selection a.designer-name
+   {
+       position:absolute;
+       right:-1px;
+       padding:0 0 0 4px;
+   }
+   .design-archives,
+   .zen-resources
+   {
+       clear:both;
+   }
+   :not(p){
+    font-display:initial;
+   }
+
+   p:nth-child(2){
+    /* background-color: #000; */
+    border-radius: 50%;
+   }
+   p:nth-last-child(2){
+    /* background-color: #000; */
+    border-radius: 50%;
+    font-weight:bold;
+   }
+
+   p:nth-last-of-type(2){
+    touch-action: auto;
+   }
+
+   p:nth-of-type(2){
+    /* background-color: #000; */
+    border-radius: 50%;
+   }
+
+   p:only-child{
+    /* background-color: #000; */
+    border-radius: 50%;
+    font-weight:bold;
+    font-size: x-large;
+   }
+
+   p:only-of-type{
+    stroke-width: auto;
+   }
+
+
+   .design-archives h3,
+   .zen-resources h3
+   {
+       padding-top:6em;
+       font-size:125%;
+       font-weight:bold;
+       text-align:center;
+   }
+   .design-archives ul,
+   .zen-resources ul
+   {
+       margin:1em 0 0 0;
+       width:100%;
+   }
+   .zen-resources ul
+   {
+       padding-bottom:200px;
+       background:url('sponsorts.png') no-repeat 50% 100%;
+   }
+   .design-archives li,
+   .zen-resources li
+   {
+       text-align:center;
+   }
+   .design-archives a,
+   .zen-resources a
+   {
+       visibility:visible;
+       font-weight:bold;
+       text-transform:uppercase;
+   }
+   footer
+   {
+       position:absolute;
+       clear:both;
+       bottom:300px;
+       left:0;
+       width:100%;
+       text-align:center;
+   }
+
+   :root::after{
+    transition: none;
+
+   }
+   .extra1
+   {
+       position:fixed;
+       top:0;
+       left:0;
+       width:100%;
+       height:23.2% !important;
+       height:102px;
+       min-height:102px;
+       max-height:230px;
+       z-index:2;
+   }
+   .extra1::after
+   {
+       content: " ";
+       display:block;
+       position:absolute;
+       bottom:-198px;
+       left:0;
+       width:100%;
+       height:428px;
+       background:url('haut1.png') no-repeat 50% 100%;
+   }
+   .extra2
+   {
+       position:fixed !important;
+       position:absolute;
+       top:0;
+       left:0;
+       width:100%;
+       height:23.2% !important;
+       height:102px;
+       min-height:102px;
+       max-height:230px;
+      
+       z-index:4;
+   }
+   .extra3
+   {
+       position:fixed !important;
+       position:absolute;
+       bottom:0;
+       left:0;
+       width:100%;
+       height:30% !important;
+       height:110px;
+       min-height:110px;
+       max-height:318px;
+    
+       z-index:4;
+   }
+
+
+header[role="banner"]{
+   height: 400px;
+background-image: url(image-removebg-preview.png);
+
+}
+div[role=navigation]{
+  color: aqua;
+}
+[title~=CSS]{
+color: gold;
+}
+[lang|="en"] {
+    font-style: oblique;
+  }
+  a[href^="https"]{
+    list-style: none;
+    text-decoration: none;
+  }
+  a[href^=".pdf"]{
+    list-style: none;
+    text-decoration: none;
+  }
+  a[href^=" 214"]{
+    list-style: none;
+    text-decoration: none;
+    color: aquamarine;
+  }
+
+p:last-child{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: bold;
+}
+li:last-of-type{
+color: #000450;
+}
+a:link{
+text-height: 50px;
+}
+
+a::selection{
+    border: dotted;
 }
