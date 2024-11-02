@@ -332,7 +332,7 @@ div + p{
        padding:0 4px 0 0;
        font-weight:bold;
        text-transform:uppercase;
-       background:url('ecran.gif');
+    
    }
    .design-selection a.designer-name
    {
@@ -397,7 +397,7 @@ div + p{
    .zen-resources ul
    {
        padding-bottom:200px;
-       background:url('sponsorts.png') no-repeat 50% 100%;
+      
    }
    .design-archives li,
    .zen-resources li
@@ -412,7 +412,7 @@ div + p{
        text-transform:uppercase;
    }
    footer
-   {
+   {;
        position:absolute;
        clear:both;
        bottom:300px;
